@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@linthtml/linthtml": "^0.9.6",
+    "editorconfig-checker": "^5.1.8",
+    "linthtml-config-htmlacademy": "^1.0.25",
+    "postcss": "^8.4.39",
+    "stylelint": "^16.6.1",
+    "stylelint-config-htmlacademy": "^4.2.3",
+    "tailwindcss": "^3.4.4"
+  },
+  "scripts": {
+    "editorconfig": "editorconfig-checker -exclude \"**/node_modules/**\"",
+    "build": "tailwindcss build -i src/main.css -o public/style.css"
+  }
+}
